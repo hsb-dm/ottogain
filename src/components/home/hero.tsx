@@ -1,13 +1,11 @@
 import { Button, Typography } from "@material-tailwind/react";
 import ThemeProvider from "../theme-provider";
 import Navbar from "../navbar";
-import heroArrow from "../../assets/home/hero-arrow.svg";
 import { useTranslation } from "react-i18next";
 
-import legalImg1 from "../../assets/home/legal-bappebti.png";
-import legalImg2 from "../../assets/home/legal-icdx.png";
-import legalImg3 from "../../assets/home/legal-ich.png";
-import legalImg4 from "../../assets/home/legal-aspebtindo.png";
+import heroIllustration1 from "../../assets/home/hero-illustration1.webp";
+import heroIllustration2 from "../../assets/home/hero-illustration2.webp";
+import heroIllustration3 from "../../assets/home/hero-illustration3.webp";
 
 export function Hero() {
   const { t } = useTranslation();
@@ -16,41 +14,47 @@ export function Hero() {
     <ThemeProvider>
       <Navbar />
 
-      <header className="h-full w-screen place-items-center bg-white relative px-6 pt-28 pb-0 bg-hero lg:pt-48 lg:px-[100px]">
-        <div className="mx-auto grid items-center">
-          <Typography
-            variant="h1"
-            className="leading-tight text-center text-white text-[2.5rem] lg:text-[3.5rem]"
-          >
-            {t("hero.h1")}
-          </Typography>
+      <header className="relative flex flex-col place-items-center bg-hero px-8 lg:px-12 pt-8 lg:pt-12 pb-0 w-screen h-full">
+        <div className="flex place-items-center">
+          <img
+            src={heroIllustration1.src}
+            className="hidden lg:block -mb-64 w-[336px] h-[324px]"
+          />
 
-          <div className="mt-32 flex justify-center">
-            <a href="#cta">
-              <Button className="flex items-center" variant="text">
-                <div className="p-1 border-[1.5px] rounded-full border-white w-[49px] h-[49px] flex justify-center items-end lg:w-[64px] lg:h-[64px]">
-                  <img
-                    src={heroArrow.src}
-                    className="h-[20px] lg:h-[26px] animate-float lg:animate-float-lg"
-                  />
-                </div>
-              </Button>
-            </a>
+          <div className="items-center grid mx-auto">
+            <Typography
+              variant="h5"
+              className="text-white text-center leading-tight"
+            >
+              OTTOGAIN
+            </Typography>
+
+            <Typography
+              variant="h1"
+              className="mt-5 font-black text-[2.5rem] text-white lg:text-[3.5rem] text-3xl text-center leading-tight"
+            >
+              {t("hero.h1")}
+            </Typography>
+
+            <Typography
+              variant="p"
+              className="mt-4 text-white text-sm lg:text-xl text-center leading-tight"
+            >
+              {t("hero.p")}
+            </Typography>
           </div>
 
-          <div className="mt-4 text-white text-center border-t-[1px] border-b-[1px] border-white py-4 lg:flex lg:justify-evenly lg:items-center lg:py-[2.5rem] lg:mt-6">
-            <p className="text-sm lg:text-4xl lg:max-w-[212px] lg:text-left">
-              {t("hero.legal")}
-            </p>
-
-            <div className="flex gap-2 h-6 mt-4 justify-between lg:h-[3rem] lg:gap-[3.125rem] lg:mt-0">
-              <img src={legalImg1.src} />
-              <img src={legalImg2.src} />
-              <img src={legalImg3.src} />
-              <img src={legalImg4.src} />
-            </div>
-          </div>
+          <img
+            src={heroIllustration2.src}
+            className="hidden lg:block w-[364px] h-[334px]"
+          />
         </div>
+
+        <Button className="bg-gradient-to-r from-[#C47EFC] to-[#0F17C3] mt-5 font-semibold normal-case">
+          {t("hero.ctaButton")}
+        </Button>
+
+        <img src={heroIllustration3.src} className="mt-6 lg:mt-12 w-[954px]" />
       </header>
     </ThemeProvider>
   );

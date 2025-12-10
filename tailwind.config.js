@@ -19,6 +19,8 @@ module.exports = withMT({
         "float-lg": "float-lg 1.5s ease-in-out infinite",
       },
       backgroundImage: {
+        "purple-radial":
+          "radial-gradient(68.28% 92.86% at 50.28% 92.86%, #26153B 0%, #3A2358 35%, #1E152A 70%, #111111 100%)",
         "black-radial":
           "radial-gradient(68.28% 92.86% at 50.28% 92.86%, #727272 0%, #282828 49.68%, #111111 100%)",
         "gold-gradient":

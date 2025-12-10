@@ -91,7 +91,7 @@ function NavTabs() {
             key={title}
             href={href}
             onClick={() => setActiveTabHref(href)}
-            className={`mr-4 ml-2 cursor-pointer py-1.5 font-medium whitespace-nowrap px-6 rounded-3xl ${activeTabHref === href ? "bg-black-radial text-white" : ""}`}
+            className={`mr-4 ml-2 cursor-pointer py-1.5 font-medium whitespace-nowrap px-6 rounded-3xl ${activeTabHref === href ? "bg-purple-radial text-white" : ""}`}
           >
             {t(title)}
           </a>
@@ -115,20 +115,10 @@ export default function ComplexNavbar() {
 
   return (
     <Navbar
-      className={`sticky inset-0 z-10 p-1 border-0 backdrop-saturate-0 backdrop-blur-0 bg-opacity-100 transition-shadow rounded-none bg-black w-full max-w-full lg:border-0 lg:p-4 lg:pl-24 lg:pr-24 ${
+      className={`sticky inset-0 z-10 p-1 border-0 backdrop-saturate-0 backdrop-blur-0 bg-opacity-100 transition-shadow rounded-none bg-[#26153B] w-full max-w-full lg:border-0 lg:p-4 lg:pl-24 lg:pr-24 ${
         isNavOpen ? "shadow" : ""
       }`}
     >
-      {/* <div
-        className="z-0 absolute inset-0 pointer-events-none"
-        style={{
-          marginTop: "-50px",
-          background:
-            "radial-gradient(100% 100% at 50% 50%, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 70%)",
-          display: isNavOpen ? "none" : "block",
-        }}
-      ></div> */}
-
       <div className="relative flex items-center mx-auto text-blue-gray-900">
         <a href="/" className="mr-4 ml-2 py-1.5 cursor-pointer">
           <img src={navLogoImg.src} className="w-[5.25rem] lg:w-[9rem]" />
