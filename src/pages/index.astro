@@ -2,7 +2,7 @@
 import "../../assets/css/input.css";
 import Layout from "../layouts/Layout.astro";
 import Hero from "../components/home/hero";
-import CTA from "../components/home/cta";
+import Proof from "../components/home/proof";
 import WhyUs from "../components/home/whyUs";
 import Footer from "../components/footer";
 ---
@@ -13,7 +13,7 @@ import Footer from "../components/footer";
       <Hero client:only="react" />
     </div>
 
-    <CTA client:only="react" />
+    <Proof client:only="react" />
     <WhyUs client:only="react" />
     <Footer client:only="react" />
   </main>
