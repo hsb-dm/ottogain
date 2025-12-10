@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+.font-sans {
+  font-family: "Manrope", sans-serif;
+  line-height: 1.2;
+}
+
+.bg-hero {
+  @apply bg-no-repeat bg-center bg-cover;
+  background-image: url("/src/assets/home/hero-bg-mobile.webp");
+}
+.bg-hero-service {
+  @apply bg-no-repeat bg-center bg-cover;
+  background-image: url("/src/assets/services/hero-bg-mobile.webp");
+}
+.bg-hero-about-us {
+  @apply bg-no-repeat bg-center bg-cover;
+  background-image: url("/src/assets/about-us/hero-bg-mobile.webp");
+}
+.bg-hero-contact-us {
+  @apply bg-no-repeat bg-center bg-cover;
+  background-image: url("/src/assets/contact-us/hero-bg-mobile.webp");
+}
+
+.service-pagination .swiper-pagination-bullet {
+  @apply bg-white opacity-100 w-3 h-3 mx-1 rounded-full;
+}
+.service-pagination .swiper-pagination-bullet-active {
+  @apply bg-[#EEB730] opacity-100;
+}
+
+@media (min-width: 1024px) {
+  .service-pagination {
+    display: none;
+  }
+}
