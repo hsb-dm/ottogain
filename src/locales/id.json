@@ -59,6 +59,21 @@
             }
         }
     },
+    "excellences": {
+        "h2": "Keunggulan Kami",
+        "regulated": {
+            "h3": "Teregulasi",
+            "p": "Platform ini telah teregulasi oleh BAPPEBTI dan instansi terkait lainnya."
+        },
+        "curated": {
+            "h3": "Terkurasi",
+            "p": "Semua Signal Provider sudah terkurasi dengan teliti dan terperinci sehingga terjamin untuk pengguna."
+        },
+        "easy": {
+            "h3": "Mudah",
+            "p": "Platform yang mudah digunakan, baik untuk pemula maupun professional trader sekalipun."
+        }
+    },
     "footer": {
         "address": "Mayapada Tower 2 Lantai 7 Unit 03, Jl. Jenderal Sudirman No.27, RT.4/RW.2, Kuningan, Karet, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12920",
         "email": "support@lmr.co.id",
