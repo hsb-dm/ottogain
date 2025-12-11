@@ -31,7 +31,7 @@ import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 type CardProps = {
   iconSrc: string;
@@ -114,6 +114,14 @@ export function Proof() {
   const { t } = useTranslation();
   const [modalImg, setModalImg] = useState<string | null>(null);
 
+  useEffect(() => {
+    if (modalImg) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+  }, [modalImg]);
+
   return (
     <section className="bg-[#1B0A31] px-6 lg:px-[100px] py-12">
       <section className="relative lg:flex-row gap-[1.5rem] grid mt-[3rem] lg:mt-[4.7rem]">
@@ -142,10 +150,13 @@ export function Proof() {
           className="lg:grid-cols-3 max-w-full"
         >
           {proofImages.map(({ imgSrc, popupSrc }, index) => (
-            <SwiperSlide key={index} className="cursor-pointer">
+            <SwiperSlide
+              key={index}
+              className="hover:opacity-80 cursor-pointer"
+            >
               <img
                 src={imgSrc.src}
-                onMouseEnter={() => setModalImg(popupSrc.src)}
+                onClick={() => setModalImg(popupSrc.src)}
                 className="rounded-lg"
               />
             </SwiperSlide>
@@ -157,6 +168,14 @@ export function Proof() {
             className="z-[9999] fixed inset-0 flex justify-center items-center bg-black/80 p-6"
             onClick={() => setModalImg(null)}
           >
+            {/* Close button */}
+            <button
+              className="top-6 lg:top-6 right-6 lg:right-12 z-[10000] absolute bg-hero px-2 rounded-full font-bold text-white text-3xl"
+              onClick={() => setModalImg(null)}
+            >
+              &times;
+            </button>
+
             <div
               className="max-h-full overflow-y-auto"
               onClick={(e) => e.stopPropagation()}
