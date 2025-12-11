@@ -29,7 +29,7 @@ export function WhyUs() {
     <section className="bg-[#1B0A31] px-6 lg:px-[100px] py-12">
       <div className="flex justify-center items-center">
         <div className="bg-[#281343] px-5 py-3 rounded-3xl font-semibold text-white text-2xl">
-          Smart Solution
+          Join Us!
         </div>
       </div>
 

@@ -9,7 +9,7 @@ i18n
   .use(LanguageDetector) // <-- This handles persistence via localStorage/cookies
   .use(initReactI18next)
   .init({
-    fallbackLng: "en",
+    fallbackLng: "id",
     // debug: true,
     resources: {
       en: { translation: en },
