@@ -66,11 +66,11 @@ function Card({ iconSrc, imgSrc, h3, p }: CardProps) {
           ? "linear-gradient(142.52deg, #FFFFFF 1.29%, #D4D4D4 35.26%, #FFFFFF 63.49%)"
           : "linear-gradient(142.52deg, #FFFFFF 38.78%, #D4D4D4 70.83%, #FFFFFF 97.47%)",
       }}
-      className="p-[2.6rem] rounded-[20px] h-[422px] max-w-[340px] flex flex-col items-center relative lg:max-w-[395px] lg:h-[32.2rem] lg:items-baseline lg:rounded-[40px] lg:py-[4rem] lg:px-[3.4rem]"
+      className="relative flex flex-col items-center lg:items-baseline p-[2.6rem] lg:px-[3.4rem] lg:py-[4rem] rounded-[20px] lg:rounded-[40px] max-w-[340px] lg:max-w-[395px] h-[422px] lg:h-[32.2rem]"
     >
       <img
         src={iconSrc}
-        className="absolute w-[3.7rem] h-[3.7rem] top-[1rem] right-[1rem]"
+        className="top-[1rem] right-[1rem] absolute w-[3.7rem] h-[3.7rem]"
       />
 
       <img src={imgSrc} className={isHoveredOrClicked ? "hidden" : ""} />
@@ -83,7 +83,7 @@ function Card({ iconSrc, imgSrc, h3, p }: CardProps) {
             className={`transition-all duration-500 ease-in-out transform flex flex-col items-center
               ${isHoveredOrClicked ? "translate-y-0 opacity-100" : "translate-y-4 opacity-100"}`}
           >
-            <h3 className="text-[2rem] font-bold mt-[1.4rem] lg:text-[2.5rem]">
+            <h3 className="mt-[1.4rem] font-bold text-[2rem] lg:text-[2.5rem]">
               {h3}
             </h3>
           </div>
@@ -112,12 +112,13 @@ export function WhyUs() {
   const { t } = useTranslation();
 
   return (
-    <section className="px-6 py-12 bg-black lg:px-[100px]">
-      <h2 className="text-center text-white font-semibold text-[2.5rem] lg:text-[3.5rem]">
+    <section className="bg-black px-6 lg:px-[100px] py-12">
+
+      <h2 className="font-semibold text-[2.5rem] text-white lg:text-[3.5rem] text-center">
         {t("serviceWhy.h2")}
       </h2>
 
-      <section className="relative mt-[3rem] grid gap-[1.5rem] lg:flex-row lg:mt-[4.7rem]">
+      <section className="relative lg:flex-row gap-[1.5rem] grid mt-[3rem] lg:mt-[4.7rem]">
         {/* Shadow Left */}
         <div
           style={{
@@ -125,7 +126,7 @@ export function WhyUs() {
               "linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, #000000 100%)",
             opacity: 0.7,
           }}
-          className="hidden lg:block absolute top-0 left-0 h-full w-[350px] z-[5]"
+          className="hidden lg:block top-0 left-0 z-[5] absolute w-[350px] h-full"
         ></div>
 
         {/* Shadow Right */}
@@ -135,7 +136,7 @@ export function WhyUs() {
               "linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 100%)",
             opacity: 0.7,
           }}
-          className="hidden lg:block absolute top-0 right-0 h-full w-[350px] z-[5]"
+          className="hidden lg:block top-0 right-0 z-[5] absolute w-[350px] h-full"
         ></div>
 
         <Swiper
@@ -156,10 +157,10 @@ export function WhyUs() {
           centeredSlides={true}
           spaceBetween={27}
           loop
-          className="max-w-full lg:grid-cols-3"
+          className="lg:grid-cols-3 max-w-full"
         >
           {cards.map((card, idx) => (
-            <SwiperSlide key={idx} className="!w-auto justify-center">
+            <SwiperSlide key={idx} className="justify-center !w-auto">
               <Card
                 iconSrc={card.iconSrc}
                 imgSrc={card.imgSrc}
@@ -170,14 +171,14 @@ export function WhyUs() {
           ))}
         </Swiper>
 
-        <div className="service-nav-prev hidden cursor-pointer lg:flex shadow z-[5] w-16 h-16 bg-white items-center justify-center absolute -left-0 top-1/2 transform -translate-y-1/2 hover:bg-gray-300 rounded-full">
+        <div className="hidden top-1/2 -left-0 z-[5] absolute lg:flex justify-center items-center bg-white hover:bg-gray-300 shadow rounded-full w-16 h-16 -translate-y-1/2 cursor-pointer service-nav-prev transform">
           <img src={arrowLeft.src} />
         </div>
-        <div className="service-nav-next hidden cursor-pointer lg:flex shadow z-[5] w-16 h-16 bg-white items-center justify-center absolute -right-0 top-1/2 transform -translate-y-1/2 hover:bg-gray-300 rounded-full">
+        <div className="hidden top-1/2 -right-0 z-[5] absolute lg:flex justify-center items-center bg-white hover:bg-gray-300 shadow rounded-full w-16 h-16 -translate-y-1/2 cursor-pointer service-nav-next transform">
           <img src={arrowRight.src} />
         </div>
 
-        <div className="service-pagination flex justify-center"></div>
+        <div className="flex justify-center service-pagination"></div>
       </section>
     </section>
   );

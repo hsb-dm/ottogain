@@ -17,25 +17,23 @@
         "signalAmount": "Jumlah Signal Provider",
         "connectedBroker": "Broker Terkoneksi"
     },
-    "cta": {
-        "h2": "Mitra Terpercaya untuk Broker dan Trader di Indonesia",
-        "p": "Kami menyediakan likuiditas institusional dan teknologi mutakhir untuk mendukung kesuksesan Anda.",
-        "btn": "Hubungi Kami Sekarang"
-    },
     "whyUs": {
-        "h2": "Mengapa Memilih  Kami?",
-        "cardCta": "Pelajari Lebih Lanjut",
+        "h2": "Mengapa Pilih OTTOGAIN",
         "card1": {
-            "h3": "Likuiditas Terjamin",
-            "p": "Koneksi langsung ke penyedia likuiditas global."
+            "h3": "Secure",
+            "p": "Semua koneksi dan proses sinkronisasi terenkripsi untuk keamanan maksimal."
         },
         "card2": {
-            "h3": "Teknologi Inovatif",
-            "p": "Solusi teknologi fleksibel & mutakhir."
+            "h3": "Easy",
+            "p": "Client portal yang mudah digunakan dengan berbagai opsi pilihan signal provider yang sudah terkurasi."
         },
         "card3": {
-            "h3": "Dukungan Lokal",
-            "p": "Tim support berpengalaman & terpercaya."
+            "h3": "Fast",
+            "p": "Buka akun hanya 5 menit dengan langsung terkoneksi dengan signal provider, VPN, dan multi broker, serta multi payment channel."
+        },
+        "card4": {
+            "h3": "Regulated",
+            "p": "Terhubung dengan broker lokal resmi dan sesuai dengan kebijakan pemerintah Indonesia."
         }
     },
     "footer": {

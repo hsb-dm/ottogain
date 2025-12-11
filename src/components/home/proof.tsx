@@ -20,68 +20,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { useEffect, useState } from "react";
 
-type CardProps = {
-  iconSrc: string;
-  imgSrc: string;
-  h3: string;
-  p: string;
-};
-
-function Card({ iconSrc, imgSrc, h3, p }: CardProps) {
-  const [isHoveredOrClicked, setisHoveredOrClicked] = useState(false);
-
-  return (
-    <article
-      onMouseEnter={() => setisHoveredOrClicked(true)}
-      onMouseLeave={() => setisHoveredOrClicked(false)}
-      onClick={() => setisHoveredOrClicked(!isHoveredOrClicked)}
-      style={{
-        background: isHoveredOrClicked
-          ? "linear-gradient(142.52deg, #FFFFFF 1.29%, #D4D4D4 35.26%, #FFFFFF 63.49%)"
-          : "linear-gradient(142.52deg, #FFFFFF 38.78%, #D4D4D4 70.83%, #FFFFFF 97.47%)",
-      }}
-      className="relative flex flex-col items-center lg:items-baseline p-[2.6rem] lg:px-[3.4rem] lg:py-[4rem] rounded-[20px] lg:rounded-[40px] max-w-[340px] lg:max-w-[395px] h-[422px] lg:h-[32.2rem]"
-    >
-      <img
-        src={iconSrc}
-        className="top-[1rem] right-[1rem] absolute w-[3.7rem] h-[3.7rem]"
-      />
-
-      <img src={imgSrc} className={isHoveredOrClicked ? "hidden" : ""} />
-
-      <div
-        className={`lg:max-w-[664px] lg:flex lg:flex-col lg:h-full lg:justify-between lg:mt-4 2xl:mt-0`}
-      >
-        <div>
-          <div
-            className={`transition-all duration-500 ease-in-out transform flex flex-col items-center
-              ${isHoveredOrClicked ? "translate-y-0 opacity-100" : "translate-y-4 opacity-100"}`}
-          >
-            <h3 className="mt-[1.4rem] font-bold text-[2rem] lg:text-[2.5rem]">
-              {h3}
-            </h3>
-          </div>
-
-          <div
-            className={`transition-all duration-500 ease-in-out transform ${
-              isHoveredOrClicked
-                ? "opacity-100 translate-y-0 max-h-[300px]"
-                : "opacity-0 translate-y-4 max-h-0 overflow-hidden"
-            }`}
-          >
-            <p
-              className={`text-[0.9rem] text-left mt-[0.9rem] font-semibold lg:text-[1.5rem]`}
-              style={{ textWrap: "balance" }}
-            >
-              {p}
-            </p>
-          </div>
-        </div>
-      </div>
-    </article>
-  );
-}
-
 const proofImages = [
   {
     imgSrc: proof1Img,

@@ -1,8 +1,10 @@
 import { Button } from "@material-tailwind/react";
 import { useTranslation } from "react-i18next";
-import card1Icon from "../../assets/home/why-card1-icon.png";
-import card2Icon from "../../assets/home/why-card2-icon.png";
-import card3Icon from "../../assets/home/why-card3-icon.png";
+
+import card1Img from "../../assets/home/why-card1.svg";
+import card2Img from "../../assets/home/why-card2.svg";
+import card3Img from "../../assets/home/why-card3.svg";
+import card4Img from "../../assets/home/why-card4.svg";
 import "../../i18n";
 
 export function WhyUs() {
@@ -10,61 +12,54 @@ export function WhyUs() {
 
   const cards = [
     {
-      iconSrc: card1Icon.src,
+      imgSrc: card1Img.src,
     },
     {
-      iconSrc: card2Icon.src,
+      imgSrc: card2Img.src,
     },
     {
-      iconSrc: card3Icon.src,
+      imgSrc: card3Img.src,
+    },
+    {
+      imgSrc: card4Img.src,
     },
   ];
 
   return (
-    <section className="px-6 py-12 bg-black lg:px-[100px]">
-      <h2 className="text-center text-white font-semibold text-[2.5rem] lg:text-[3.5rem]">
+    <section className="bg-[#1B0A31] px-6 lg:px-[100px] py-12">
+      <div className="flex justify-center items-center">
+        <div className="bg-[#281343] px-6 py-4 rounded-3xl font-semibold text-white text-2xl">
+          Smart Solution
+        </div>
+      </div>
+
+      <h2 className="mt-2 font-semibold text-[2.5rem] text-white lg:text-[3.5rem] text-center">
         {t("whyUs.h2")}
       </h2>
 
-      <section className="mt-[3rem] grid gap-[1.5rem] lg:flex-row lg:mt-[4.7rem] lg:grid-cols-3">
+      <section className="lg:flex-row gap-[1.5rem] grid lg:grid-cols-4 mt-[3rem] lg:mt-[4.7rem]">
         {cards.map((card, idx) => (
           <article
             key={idx}
-            style={{
-              background:
-                "linear-gradient(142.52deg, #FFFFFF 38.78%, #D4D4D4 70.83%, #FFFFFF 97.47%)",
-            }}
-            className="p-[3rem] pr-[2rem] rounded-[20px] h-[310px] flex items-center relative lg:h-[32.2rem] lg:items-baseline lg:rounded-[40px] lg:py-[4rem] lg:px-[3.4rem]"
+            className="relative flex flex-col items-center lg:items-baseline bg-[#1B0A31] p-6 border border-[#BB7CE4] rounded-xl lg:rounded-[40px] h-[310px] lg:h-[431px] text-white"
           >
-            <img
-              src={card.iconSrc}
-              className="absolute w-[4.3rem] h-[4.3rem] top-[1rem] right-[1rem]"
-            />
+            <div className="flex justify-center items-center w-[250px] h-[240px]">
+              <img src={card.imgSrc} className="w-[250px] h-[240px]" />
+            </div>
 
-            <div className="lg:max-w-[664px] lg:flex lg:flex-col lg:h-full lg:justify-between lg:mt-4 2xl:mt-0">
-              <div>
-                <h2 className="text-[2rem] font-bold w-[10rem] lg:text-[3rem]">
+            <div className="lg:flex lg:flex-col lg:justify-between lg:mt-4 2xl:mt-0 lg:max-w-[664px] lg:h-full">
+              <div className="text-center">
+                <h2 className="font-bold text-[2rem] lg:text-2xl">
                   {t(`whyUs.card${idx + 1}.h3`)}
                 </h2>
 
                 <p
-                  className="text-[0.9rem] text-left mt-[0.9rem] font-semibold lg:text-[1.5rem]"
+                  className="mt-[0.9rem] text-[0.9rem] lg:text-base text-left"
                   style={{ textWrap: "balance" }}
                 >
                   {t(`whyUs.card${idx + 1}.p`)}
                 </p>
               </div>
-
-              <a href="/services">
-                <div className="p-[1px] rounded-full bg-[linear-gradient(to_right,_#905510_0%,_#F3CB5F_50%,_#A16B22_100%)] inline-block mt-5 lg:mt-[1.75rem] lg:w-full">
-                  <Button
-                    className="flex items-center rounded-full bg-gold-gradient text-white normal-case font-normal w-[10rem] justify-center text-[0.9rem] shadow-[0px_3px_5px_1px_rgba(0,0,0,0.3)] hover:bg-none hover:bg-black lg:text-[1.5rem] lg:w-full lg:py-[1rem]"
-                    variant="text"
-                  >
-                    {t(`whyUs.cardCta`)}
-                  </Button>
-                </div>
-              </a>
             </div>
           </article>
         ))}
