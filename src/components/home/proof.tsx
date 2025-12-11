@@ -1,17 +1,3 @@
-import { Button } from "@material-tailwind/react";
-
-import card1Icon from "../../assets/services/why-card1-icon.png";
-import card2Icon from "../../assets/services/why-card2-icon.png";
-import card3Icon from "../../assets/services/why-card3-icon.png";
-import card4Icon from "../../assets/services/why-card4-icon.png";
-import card5Icon from "../../assets/services/why-card5-icon.png";
-
-import card1Img from "../../assets/services/why-card1-img.webp";
-import card2Img from "../../assets/services/why-card2-img.webp";
-import card3Img from "../../assets/services/why-card3-img.webp";
-import card4Img from "../../assets/services/why-card4-img.webp";
-import card5Img from "../../assets/services/why-card5-img.webp";
-
 import proof1Img from "../../assets/home/proof-1.webp";
 import proof2Img from "../../assets/home/proof-2.webp";
 import proof3Img from "../../assets/home/proof-3.webp";
@@ -20,8 +6,9 @@ import proof1Popup from "../../assets/home/proof1-popup.webp";
 import proof2Popup from "../../assets/home/proof2-popup.webp";
 import proof3Popup from "../../assets/home/proof3-popup.webp";
 
-import arrowLeft from "../../assets/services/arrow-left.svg";
-import arrowRight from "../../assets/services/arrow-right.svg";
+import monitorIcon from "../../assets/home/icon-monitor.svg";
+import robotIcon from "../../assets/home/icon-robot.svg";
+import userIcon from "../../assets/home/icon-user.svg";
 
 import { useTranslation } from "react-i18next";
 import "../../i18n";
@@ -163,6 +150,40 @@ export function Proof() {
           ))}
         </Swiper>
 
+        <div className="flex justify-center service-pagination"></div>
+
+        <section className="relative mt-24 p-2 rounded-2xl w-full">
+          {/* Glow Layer */}
+          <div className="-z-10 absolute inset-0 bg-[#BB7CE4] opacity-40 blur-xl rounded-2xl"></div>
+
+          {/* Actual card */}
+          <div className="flex lg:flex-row flex-col justify-evenly items-center gap-4 bg-[#F8F8F80D] p-7 border border-[#BB7CE4]/30 rounded-2xl">
+            <div className="flex justify-start lg:justify-center items-center gap-6 w-full">
+              <img src={userIcon.src} alt="icon user" />
+              <div className="text-white">
+                <div className="font-semibold text-5xl">99+</div>
+                <div>{t("proof.userAmount")}</div>
+              </div>
+            </div>
+
+            <div className="flex justify-start lg:justify-center items-center gap-6 w-full">
+              <img src={robotIcon.src} alt="icon robot" />
+              <div className="text-white">
+                <div className="font-semibold text-5xl">21</div>
+                <div>{t("proof.signalAmount")}</div>
+              </div>
+            </div>
+
+            <div className="flex justify-start lg:justify-center items-center gap-6 w-full">
+              <img src={monitorIcon.src} alt="icon monitor" />
+              <div className="text-white">
+                <div className="font-semibold text-5xl">07</div>
+                <div>{t("proof.connectedBroker")}</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {modalImg && (
           <div
             className="z-[9999] fixed inset-0 flex justify-center items-center bg-black/80 p-6"
@@ -184,7 +205,6 @@ export function Proof() {
             </div>
           </div>
         )}
-        <div className="flex justify-center service-pagination"></div>
       </section>
     </section>
   );

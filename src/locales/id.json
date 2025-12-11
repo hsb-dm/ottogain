@@ -12,6 +12,11 @@
         "p": "Trading lebih aman dan transparan bersama OTTOGAIN, platform yang menyediakan signal provider terkurasi & teregulasi.",
         "ctaButton": "Pelajari Lebih Lanjut"
     },
+    "proof": {
+        "userAmount": "Jumlah User",
+        "signalAmount": "Jumlah Signal Provider",
+        "connectedBroker": "Broker Terkoneksi"
+    },
     "cta": {
         "h2": "Mitra Terpercaya untuk Broker dan Trader di Indonesia",
         "p": "Kami menyediakan likuiditas institusional dan teknologi mutakhir untuk mendukung kesuksesan Anda.",
