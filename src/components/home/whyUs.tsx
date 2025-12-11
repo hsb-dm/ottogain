@@ -43,8 +43,11 @@ export function WhyUs() {
             key={idx}
             className="relative flex flex-col justify-center items-center bg-[#1B0A31] p-6 border border-[#BB7CE4] rounded-xl lg:rounded-[40px] h-[310px] lg:h-[431px] text-white"
           >
-            <div className="flex justify-center items-center w-[250px] h-[200px] object-contain">
-              <img src={card.imgSrc} />
+            <div className="flex justify-center items-center w-[200px] lg:w-[250px] h-[150px] lg:h-[200px] object-contain">
+              <img
+                src={card.imgSrc}
+                className="max-w-full max-h-full object-contain"
+              />
             </div>
 
             <div className="lg:flex lg:flex-col justify-center lg:mt-4 2xl:mt-0 lg:max-w-[664px] lg:h-full">
