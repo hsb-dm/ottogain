@@ -26,9 +26,9 @@ export default function AboutUsHero() {
                   </div>
                 </div>
 
-                <h2 className="mt-3 max-w-[470px] font-semibold text-[2.5rem] text-white lg:text-5xl lg:text-left text-center">
+                <h1 className="mt-3 max-w-[470px] font-black text-[2.5rem] text-white lg:text-[3.5rem] lg:text-left text-center">
                   {t("aboutUsHero.h1")}
-                </h2>
+                </h1>
               </div>
 
               <p className="text-white">{t("aboutUsHero.p")}</p>

@@ -102,6 +102,9 @@
         "h1": "Tentang Kami",
         "p": "OTTOGAIN adalah aplikasi berbasis cloud yang menyediakan layanan multi koneksi antara user, provider dan broker dengan jaringan yang aman."
     },
+    "aboutUsTimeline": {
+        "h2": "Sejarah OTTOGAIN by ArTrade Smart Solution"
+    },
     "serviceHero": {
         "title": "Layanan — PT Lintas Mahesa Raya",
         "h1": "Layanan",
