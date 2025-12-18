@@ -148,6 +148,9 @@
             }
         }
     },
+    "serviceProofs": {
+        "h2": "Kami Memberikan Bukti bukan Janji"
+    },
     "serviceWhy": {
         "h2": "Keunggulan Layanan Kami",
         "card1": {
