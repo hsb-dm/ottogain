@@ -151,32 +151,12 @@
     "serviceProofs": {
         "h2": "Kami Memberikan Bukti bukan Janji"
     },
-    "serviceWhy": {
-        "h2": "Keunggulan Layanan Kami",
-        "card1": {
-            "h3": "Solusi Likuiditas Institusional",
-            "p": "Raih akses ke likuiditas global yang dalam dan stabil. Optimalkan eksekusi trading Anda dengan biaya lebih efisien dan kontrol risiko yang lebih baik."
-        },
-        "card2": {
-            "h3": "Infrastruktur Teknologi Pasar",
-            "p": "Bangun fondasi kuat dengan platform teknologi kelas dunia. Dapatkan kecepatan, skalabilitas, dan analitik real-time untuk mendukung operasional yang gesit dan siap tumbuh."
-        },
-        "card3": {
-            "h3": "Smart All-in-One CRM",
-            "p": "Satu dashboard, semua terkoneksi. Kelola klien, afiliasi, dan kampanye pemasaran secara cerdas—semua dalam satu sistem yang praktis dan scalable."
-        },
-        "card4": {
-            "h3": "MetaTrader 5 White Labeling & API",
-            "p": "Luncurkan platform trading Anda dalam waktu singkat. Nikmati fleksibilitas penuh dengan branding sendiri dan integrasi API yang mulus dan andal."
-        },
-        "card5": {
-            "h3": "Konsultasi & Dukungan",
-            "p": "Dukungan lokal dari ahli yang benar-benar paham kebutuhan Anda. Mulai dari integrasi, setup, hingga strategi—kami siap bantu 24/7 agar sistem Anda berjalan optimal."
-        }
-    },
     "serviceCta": {
-        "p": "Dengan layanan lengkap, teknologi terdepan, dan dukungan dari tim ahli, kami siap menjadi mitra strategis dalam perjalanan pertumbuhan Anda di pasar finansial.",
-        "btn": "Hubungi Tim Kami"
+        "h2": {
+            "1": "Bangun Fondasi Trading Bersama",
+            "2": "Signal Provider Yang Kredibel"
+        },
+        "btn": "Booking Jadwal"
     },
     "aboutHero": {
         "title": "Tentang Kami — PT Lintas Mahesa Raya",

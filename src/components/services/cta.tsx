@@ -1,47 +1,37 @@
 import { Button } from "@material-tailwind/react";
-import ctaImg from "../../assets/services/cta-img.png";
-
 import { useTranslation } from "react-i18next";
+
+import companyLogosImg from "../../assets/home/company-logos.svg";
+import ctaBg from "../../assets/home/cta-bg.svg";
 import "../../i18n";
 
-export function CTA() {
+export default function Cta() {
   const { t } = useTranslation();
 
   return (
     <section
-      id="cta"
-      className="px-6 py-12 bg-black lg:px-[6.25rem] lg:pb-[6.25rem]"
+      className="bg-[#1B0A31] bg-cover bg-center px-6 lg:px-[100px] py-24"
+      style={{ backgroundImage: `url(${ctaBg.src})` }}
     >
-      <article
-        style={{
-          background:
-            "linear-gradient(142.52deg, #FFFFFF 38.78%, #D4D4D4 70.83%, #FFFFFF 97.47%)",
-        }}
-        className="px-[1.6rem] py-[2rem] rounded-[20px] lg:shadow-[0_0_10px_5px_rgba(255,255,255,0.5)] lg:items-center lg:pt-[3.6rem] lg:pr-[3.1rem] lg:pl-[4.5rem] lg:pb-[3.75rem] lg:relative lg:flex lg:flex-row-reverse lg:rounded-[40px]"
-      >
-        <img src={ctaImg.src} className="px-4 lg:w-[250px]" />
-
-        <div>
-          <div className="mt-[2rem]">
-            <p className="text-[1.25rem] font-semibold lg:text-[1.5rem]">
-              {t("serviceCta.p")}
-            </p>
+      <div className="mx-auto container">
+        <div className="flex justify-center items-center">
+          <div className="bg-[#281343] px-5 py-3 rounded-3xl font-semibold text-white text-sm lg:text-2xl">
+            Otto Gain Smart Solution
           </div>
-
-          <a href="/contact-us">
-            <div className="p-[1px] rounded-full bg-[linear-gradient(to_right,_#905510_0%,_#F3CB5F_50%,_#A16B22_100%)] inline-block mt-5 lg:mt-[2.5rem]">
-              <Button
-                className="flex items-center rounded-full bg-gold-gradient text-white normal-case font-normal w-[11rem] justify-center text-[0.9rem] shadow-[0px_3px_5px_1px_rgba(0,0,0,0.3)] hover:bg-none hover:bg-black lg:text-[1.5rem] lg:w-[293px] lg:py-[1rem]"
-                variant="text"
-              >
-                {t("serviceCta.btn")}
-              </Button>
-            </div>
-          </a>
         </div>
-      </article>
+
+        <h2 className="mt-14 font-semibold text-white text-3xl lg:text-5xl text-center">
+          {t("serviceCta.h2.1")} <br /> {t("serviceCta.h2.2")}
+        </h2>
+
+        <div className="flex justify-center items-center w-full">
+          <Button className="bg-gradient-to-r from-[#C47EFC] to-[#0F17C3] mt-16 font-semibold normal-case">
+            {t("serviceCta.btn")}
+          </Button>
+        </div>
+
+        <img src={companyLogosImg.src} alt="company logos" className="mt-32" />
+      </div>
     </section>
   );
 }
-
-export default CTA;
