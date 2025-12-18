@@ -4,10 +4,25 @@ import content1Img from "../../assets/partnership/content-1.webp";
 import content2Img from "../../assets/partnership/content-2.webp";
 
 import bgPartnershipsContent from "../../assets/partnership/bg-services-content.svg";
+import card1Img from "../../assets/home/why-card1.svg";
+import card2Img from "../../assets/partnership/why-card2.svg";
+import card3Img from "../../assets/home/why-card3.svg";
 import "../../i18n";
 
 export default function PartnershipContent() {
   const { t } = useTranslation();
+
+  const cards = [
+    {
+      imgSrc: card1Img.src,
+    },
+    {
+      imgSrc: card2Img.src,
+    },
+    {
+      imgSrc: card3Img.src,
+    },
+  ];
 
   return (
     <div
@@ -101,6 +116,45 @@ export default function PartnershipContent() {
           </div>
 
           <img src={content2Img.src} />
+        </div>
+      </section>
+
+      <section className="bg-[#1B0A31] px-6 lg:px-[100px] py-12">
+        <div className="flex flex-col justify-center items-center mx-auto container">
+          <h1 className="font-black text-[2.5rem] text-white lg:text-[3.5rem] text-center">
+            {t("partnershipHow.h1")}
+          </h1>
+
+          <section className="lg:flex-row gap-8 grid lg:grid-cols-3 mt-[3rem] lg:mt-[4.7rem] max-w-[960px]">
+            {cards.map((card, idx) => (
+              <article
+                key={idx}
+                className="relative flex flex-col justify-center items-center bg-[#1B0A31] border border-[#BB7CE4] rounded-xl h-[310px] lg:h-[391px] text-white"
+              >
+                <div className="flex justify-center items-center pt-6 w-full h-[150px] lg:h-[200px]">
+                  <img
+                    src={card.imgSrc}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+
+                <div className="lg:flex lg:flex-col justify-center lg:mt-4 2xl:mt-0 px-6 pb-6 lg:max-w-[664px] lg:h-full">
+                  <div className="text-center">
+                    <h2 className="font-bold text-[2rem] lg:text-2xl">
+                      {t(`partnershipHow.card${idx + 1}.h3`)}
+                    </h2>
+
+                    <p
+                      className="mt-[0.9rem] text-[0.9rem] lg:text-base text-left"
+                      style={{ textWrap: "balance" }}
+                    >
+                      {t(`partnershipHow.card${idx + 1}.p`)}
+                    </p>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </section>
         </div>
       </section>
     </div>

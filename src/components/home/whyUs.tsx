@@ -41,7 +41,7 @@ export function WhyUs() {
           {cards.map((card, idx) => (
             <article
               key={idx}
-              className="relative flex flex-col justify-center items-center bg-[#1B0A31] p-6 border border-[#BB7CE4] rounded-xl lg:rounded-[40px] h-[310px] lg:h-[431px] text-white"
+              className="relative flex flex-col justify-center items-center bg-[#1B0A31] p-6 border border-[#BB7CE4] rounded-xl h-[310px] lg:h-[431px] text-white"
             >
               <div className="flex justify-center items-center w-full max-w-[250px] h-[150px] lg:h-[200px]">
                 <img

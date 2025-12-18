@@ -203,6 +203,21 @@
             }
         }
     },
+    "partnershipHow": {
+        "h1": "Bagaimana Kerjasama Ini Bekerja?",
+        "card1": {
+            "h3": "Affiliate Simple",
+            "p": "Anda referensikan, kami yang akan menjelaskan secara detail"
+        },
+        "card2": {
+            "h3": "Revenue Sharing",
+            "p": "Komisi kompetitif yang dibayarkan secara transparan"
+        },
+        "card3": {
+            "h3": "Tanpa Biaya Awal",
+            "p": "Bergabung sepenuhnya GRATIS tanpa biaya pendaftaran"
+        }
+    },
     "aboutHero": {
         "title": "Tentang Kami — PT Lintas Mahesa Raya",
         "h1": "Tentang Kami"
