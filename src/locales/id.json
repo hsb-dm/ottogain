@@ -158,6 +158,51 @@
         },
         "btn": "Booking Jadwal"
     },
+    "partnershipHero": {
+        "h1": "Bersama Membangun Kesuksesan di Dunia Trading",
+        "p": "Di Ottogain, kami percaya bahwa kolaborasi adalah kunci kesuksesan. Kami membuka pintu kemitraan bagi para edukator trading, komunitas forex/komoditi, dan profesional finansial yang ingin memberikan nilai lebih kepada anggota atau klien."
+    },
+    "partnershipContent": {
+        "h1": "Mengapa bermitra dengan Ottogain?",
+        "item1": {
+            "h2": "Untuk Edukator & Komunitas:",
+            "ul": {
+                "1": {
+                    "bold": "Tambahkan Nilai:",
+                    "li": "Lengkapi materi edukasi Anda dengan akses ke sinyal trading real-time dari analis profesional kami"
+                },
+                "2": {
+                    "bold": "Pasive Income:",
+                    "li": "Dapatkan komisi berulang setiap kali member Anda bergabung dengan layanan kami"
+                },
+                "3": {
+                    "bold": "Kredibilitas:",
+                    "li": "Tingkatkan kepercayaan anggota dengan menyediakan tools trading yang teruji performanya"
+                },
+                "4": {
+                    "bold": "Support Lengkap:",
+                    "li": "Kami siap membantu dengan materi presentasi, webinar bersama, dan dukungan teknis"
+                }
+            }
+        },
+        "item2": {
+            "h2": "Untuk Trader Profesional:",
+            "ul": {
+                "1": {
+                    "bold": "Monetisasi Skill:",
+                    "li": "Ubah keahlian trading Anda menjadi sumber pendapatan yang konsisten"
+                },
+                "2": {
+                    "bold": "Fokus pada Trading:",
+                    "li": "Kami handle semua aspek marketing, billing, dan support klien"
+                },
+                "3": {
+                    "bold": "Ekosistem Support:",
+                    "li": "Akses ke tools analisis premium dan sesi konsultasi dengan tim analis kami"
+                }
+            }
+        }
+    },
     "aboutHero": {
         "title": "Tentang Kami — PT Lintas Mahesa Raya",
         "h1": "Tentang Kami"
