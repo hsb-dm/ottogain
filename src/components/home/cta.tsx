@@ -20,7 +20,7 @@ export default function Cta() {
           </div>
         </div>
 
-        <h2 className="mt-2 font-semibold text-white text-3xl lg:text-5xl text-center">
+        <h2 className="mt-9 font-semibold text-white text-3xl lg:text-5xl text-center">
           {t("cta.h2.1")} <br /> {t("cta.h2.2")}
         </h2>
 
