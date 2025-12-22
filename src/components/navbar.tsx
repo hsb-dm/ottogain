@@ -36,10 +36,10 @@ export const navListMenuItems = [
     title: "nav.partnership",
     href: "/partnership",
   },
-  // {
-  //   title: "nav.contactUs",
-  //   href: "/contact-us",
-  // },
+  {
+    title: "nav.contactUs",
+    href: "/contact-us",
+  },
 ];
 
 function NavList() {

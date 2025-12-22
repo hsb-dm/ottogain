@@ -31,21 +31,21 @@ const LanguageSwitcher = ({
     id: idFlag.src,
   };
 
-  const languages = ["en", "id"] as const;
+  const languages = ["id", "en"] as const;
 
   return (
     <Menu open={openMenu} handler={setOpenMenu} allowHover>
       <MenuHandler>
         <Button
           variant="text"
-          className="flex items-center gap-1 text-base font-normal tracking-normal bg-white active:bg-blue-gray-50 hover:bg-blue-gray-50 rounded-full p-2 w-16 ml-2 lg:justify-normal lg:w-[8rem] lg:gap-[11.5px]"
+          className="flex lg:justify-normal items-center gap-1 lg:gap-[11.5px] bg-white hover:bg-blue-gray-50 active:bg-blue-gray-50 ml-2 p-2 rounded-full w-16 lg:w-[8rem] font-normal text-base tracking-normal"
         >
           <img
             src={langFlagSrc[currentLang]}
-            className="h-[26px] w-[26px] lg:h-[39px] lg:w-[39px]"
+            className="w-[26px] lg:w-[39px] h-[26px] lg:h-[39px]"
           />
 
-          <span className="hidden lg:block font-semibold text-lg text-black">
+          <span className="hidden lg:block font-semibold text-black text-lg">
             {currentLang.toUpperCase()}
           </span>
 
@@ -58,20 +58,20 @@ const LanguageSwitcher = ({
         </Button>
       </MenuHandler>
 
-      <MenuList className="bg-white mx-2 rounded-2xl w-10 min-w-0 -ml-3 p-1 lg:w-[8rem] lg:rounded-3xl lg:ml-0">
-        <ul className="gap-2 flex-col flex focus:outline-none focus:ring-0">
+      <MenuList className="bg-white mx-2 -ml-3 lg:ml-0 p-1 rounded-2xl lg:rounded-3xl w-10 lg:w-[8rem] min-w-0">
+        <ul className="flex flex-col gap-2 focus:outline-none focus:ring-0">
           {languages.map((lng) => (
             <MenuItem
               onClick={() => changeLanguage(lng)}
-              className="p-0 flex items-center gap-[11.5px] justify-center lg:justify-normal lg:p-2.5 lg:pl-1"
+              className="flex justify-center lg:justify-normal items-center gap-[11.5px] p-0 lg:p-2.5 lg:pl-1"
               key={lng}
             >
               <img
                 src={langFlagSrc[lng]}
-                className="h-[26px] w-[26px] lg:h-[39px] lg:w-[39px]"
+                className="w-[26px] lg:w-[39px] h-[26px] lg:h-[39px]"
               />
 
-              <span className="hidden lg:block font-semibold text-lg text-black">
+              <span className="hidden lg:block font-semibold text-black text-lg">
                 {lng.toUpperCase()}
               </span>
             </MenuItem>
