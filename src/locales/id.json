@@ -254,6 +254,11 @@
             }
         }
     },
+    "partnershipCta": {
+        "h2": "Siap Mengembangkan Bisnis dan Komunitas Anda Bersama Kami?",
+        "p1": "Bergabunglah dengan jaringan partner Ottogain yang sudah tersebar di lebih dari 13 provinsi di seluruh Indonesia",
+        "p2": "Hubungi tim partnership kami langsung:"
+    },
     "aboutHero": {
         "title": "Tentang Kami — PT Lintas Mahesa Raya",
         "h1": "Tentang Kami"
