@@ -13,9 +13,9 @@ export default function ServiceHero() {
     <ThemeProvider>
       <Navbar />
 
-      <header className="flex flex-col justify-center items-center bg-hero bg-cover bg-center">
-        <section className="flex justify-between items-center mx-auto pt-7 text-white container">
-          <div className="flex flex-col gap-5 max-w-[450px]">
+      <header className="flex flex-col justify-center items-center bg-hero bg-cover bg-center min-h-[600px]">
+        <section className="flex lg:flex-row flex-col justify-between items-center mx-auto pt-7 text-white container">
+          <div className="flex flex-col gap-5 lg:max-w-[450px]">
             <div className="flex justify-center lg:justify-start items-center w-full">
               <div className="bg-[#281343] px-5 py-3 rounded-3xl font-semibold text-white text-sm">
                 Our Services
@@ -27,7 +27,7 @@ export default function ServiceHero() {
             </h1>
           </div>
 
-          <img src={hero.src} />
+          <img src={hero.src} className="mt-10 lg:mt-0" />
         </section>
       </header>
     </ThemeProvider>

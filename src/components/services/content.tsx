@@ -140,8 +140,8 @@ export default function ServiceContent() {
       </section>
 
       {/* Portfolio Proofs */}
-      <section className="relative lg:flex-row gap-28 grid mx-auto lg:my-[4.7rem] mt-[3rem] container">
-        <h2 className="font-semibold text-[2.5rem] text-white lg:text-5xl text-center">
+      <section className="relative lg:flex-row gap-12 lg:gap-28 grid mx-auto lg:my-[4.7rem] mt-[3rem] px-8 pb-12 container">
+        <h2 className="font-semibold text-white text-3xl lg:text-5xl text-center">
           {t("serviceProofs.h2")}
         </h2>
 
