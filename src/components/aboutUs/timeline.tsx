@@ -1,12 +1,5 @@
 import { useTranslation } from "react-i18next";
-
-import Navbar from "../navbar";
-
-import excellencesMainImg from "../../assets/home/excellences-main.webp";
-import hero from "../../assets/about-us/hero.webp";
-
 import "../../i18n";
-import ThemeProvider from "../theme-provider";
 
 export default function AboutUsTimeline() {
   const { t } = useTranslation();
@@ -16,9 +9,9 @@ export default function AboutUsTimeline() {
       <>
         {/* left card */}
         <div className="flex justify-end">
-          <div className="bg-[#1B0A31] p-5 border border-purple-400/50 rounded-xl w-[320px] text-white">
-            <h4 className="mb-2 font-semibold">{date}</h4>
-            <p className="opacity-80 text-sm">{text}</p>
+          <div className="bg-[#1B0A31] p-2 lg:p-5 border border-purple-400/50 rounded-xl max-w-[320px] text-white">
+            <h4 className="mb-2 font-semibold text-sm lg:text-base">{date}</h4>
+            <p className="opacity-80 text-xs lg:text-sm">{text}</p>
           </div>
         </div>
 
@@ -48,9 +41,9 @@ export default function AboutUsTimeline() {
 
         {/* right card */}
         <div className="flex justify-start">
-          <div className="bg-[#1B0A31] p-5 border border-purple-400/50 rounded-xl w-[320px] text-white">
-            <h4 className="mb-2 font-semibold">{date}</h4>
-            <p className="opacity-80 text-sm">{text}</p>
+          <div className="bg-[#1B0A31] p-2 lg:p-5 border border-purple-400/50 rounded-xl max-w-[320px] text-white">
+            <h4 className="mb-2 font-semibold text-sm lg:text-base">{date}</h4>
+            <p className="opacity-80 text-xs lg:text-sm">{text}</p>
           </div>
         </div>
       </>
@@ -91,7 +84,7 @@ export default function AboutUsTimeline() {
 
   return (
     <section className="flex flex-col items-center bg-[#1B0A31] px-6 lg:px-[100px] pt-12 lg:pt-24 text-white">
-      <div className="flex flex-col gap-5 mt-12 pl-4 lg:pl-0">
+      <div className="flex flex-col gap-5 mt-12">
         <div>
           <div className="flex justify-center items-center w-full">
             <div className="bg-[#281343] px-5 py-3 rounded-3xl font-semibold text-white text-sm">
@@ -99,11 +92,11 @@ export default function AboutUsTimeline() {
             </div>
           </div>
 
-          <h2 className="mt-5 font-semibold text-[2.5rem] text-white lg:text-5xl lg:text-left text-center">
+          <h2 className="mt-5 font-semibold text-white lg:text-[2.5rem] text-3xl lg:text-5xl text-center">
             {t("aboutUsTimeline.h2")}
           </h2>
 
-          <div className="relative mx-auto mt-24 py-20 max-w-6xl">
+          <div className="relative mx-auto mt-12 lg:mt-24 py-10 lg:py-20 max-w-6xl">
             {/* vertical line */}
             <div className="top-0 left-1/2 absolute bg-purple-400/40 w-px h-full -translate-x-1/2" />
 
