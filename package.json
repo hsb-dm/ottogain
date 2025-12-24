@@ -1,0 +1,48 @@
+{
+  "name": "ottogain",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@astrojs/react": "^4.2.2",
+    "@astrojs/tailwind": "^6.0.2",
+    "@heroicons/react": "^2.0.16",
+    "@material-tailwind/react": "^2.0.1",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "astro": "^5.5.5",
+    "astro-i18next": "^1.0.0-beta.21",
+    "forward-ref": "^1.0.0",
+    "framer-motion": "^10.12.16",
+    "fs-extra": "^11.1.1",
+    "i18next": "^25.1.1",
+    "i18next-browser-languagedetector": "^8.1.0",
+    "json-server": "^0.17.0",
+    "next": "^13.4.4",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-bootstrap": "^2.6.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^15.5.1",
+    "react-router-dom": "^7.5.3",
+    "swiper": "^11.2.6"
+  },
+  "devDependencies": {
+    "@types/next": "^9.0.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "sass": "^1.55.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,24 @@
+---
+import "../../assets/css/input.css";
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/home/hero";
+import Proof from "../components/home/proof";
+import WhyUs from "../components/home/whyUs";
+import JoinUs from "../components/home/joinUs";
+import Cta from "../components/home/cta";
+import Footer from "../components/footer";
+---
+
+<Layout title="OTTOGAIN">
+  <main>
+    <div class="relative min-h-[600px]">
+      <Hero client:only="react" />
+    </div>
+
+    <Proof client:only="react" />
+    <WhyUs client:only="react" />
+    <JoinUs client:only="react" />
+    <Cta client:only="react" />
+    <Footer client:only="react" />
+  </main>
+</Layout>

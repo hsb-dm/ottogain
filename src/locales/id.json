@@ -1,0 +1,289 @@
+{
+    "404": "Halaman tidak ditemukan",
+    "nav": {
+        "home": "Beranda",
+        "service": "Layanan",
+        "aboutUs": "Tentang Kami",
+        "partnership": "Partnership",
+        "contactUs": "Hubungi Kami"
+    },
+    "hero": {
+        "h1": "SIGNAL PROVIDER UNTUK SEMUA ORANG",
+        "p": "Trading lebih aman dan transparan bersama OTTOGAIN, platform yang menyediakan signal provider terkurasi & teregulasi.",
+        "ctaButton": "Pelajari Lebih Lanjut"
+    },
+    "proof": {
+        "userAmount": "Jumlah User",
+        "signalAmount": "Jumlah Signal Provider",
+        "connectedBroker": "Broker Terkoneksi"
+    },
+    "whyUs": {
+        "h2": "Mengapa Pilih OTTOGAIN",
+        "card1": {
+            "h3": "Secure",
+            "p": "Semua koneksi dan proses sinkronisasi terenkripsi untuk keamanan maksimal."
+        },
+        "card2": {
+            "h3": "Easy",
+            "p": "Client portal yang mudah digunakan dengan berbagai opsi pilihan signal provider yang sudah terkurasi."
+        },
+        "card3": {
+            "h3": "Fast",
+            "p": "Buka akun hanya 5 menit dengan langsung terkoneksi dengan signal provider, VPN, dan multi broker, serta multi payment channel."
+        },
+        "card4": {
+            "h3": "Regulated",
+            "p": "Terhubung dengan broker lokal resmi dan sesuai dengan kebijakan pemerintah Indonesia."
+        }
+    },
+    "joinUs": {
+        "h2": "Bertumbuh bersama OTTOGAIN",
+        "referral": {
+            "h3": "Referral",
+            "p1": "Rekomendasikan OTTOGAIN",
+            "p2": "Dapatkan komisi dari setiap orang yang bergabung"
+        },
+        "representative": {
+            "h3": "Representatif",
+            "p1": "Bangun pusat edukasi & layanan OTTOGAIN Anda sendiri",
+            "p2": "Semua alat pemasaran sudah disiapkan, Anda tinggal menjalankan"
+        },
+        "career": {
+            "h3": "Karir",
+            "p": {
+                "heading": "Keuntungan bergabung :",
+                "1": "Gaji pokok + tunjangan + bonus performa",
+                "2": "Sertifikasi trading gratis (setelah seleksi & pelatihan)",
+                "3": "Lingkungan kerja nyaman & suportif",
+                "4": "Relasi Profesional Seluruh Indonesia"
+            }
+        }
+    },
+    "excellences": {
+        "h2": "Keunggulan Kami",
+        "regulated": {
+            "h3": "Teregulasi",
+            "p": "Platform ini telah teregulasi oleh BAPPEBTI dan instansi terkait lainnya."
+        },
+        "curated": {
+            "h3": "Terkurasi",
+            "p": "Semua Signal Provider sudah terkurasi dengan teliti dan terperinci sehingga terjamin untuk pengguna."
+        },
+        "easy": {
+            "h3": "Mudah",
+            "p": "Platform yang mudah digunakan, baik untuk pemula maupun professional trader sekalipun."
+        }
+    },
+    "cta": {
+        "h2": {
+            "1": "Pilih Signal Provider OTTOGAIN,",
+            "2": "Bangun Ekosistem Trading Lebih Efisien"
+        },
+        "p": "Pesan konsultasi Anda sekarang untuk menjelajahi solusi Signal Provider yang disesuaikan, dirancang khusus untuk Anda!",
+        "btn": "Booking Jadwal"
+    },
+    "footer": {
+        "risk": {
+            "title1": "Penasihat Berjangka",
+            "content1": "Penasihat Berjangka adalah Pihak yang memberikan nasihat kepada pihak lain mengenai jual beli Komoditi berdasarkan Kontrak Berjangka, Kontrak Derivatif Syariah dan/atau Kontrak Derivatif lainnya dengan menerima imbalan. Wakil Penasihat Berjangka adalah orang perseorangan yang berdasarkan kesepakatan dengan Penasihat Berjangka melaksanakan sebagian fungsi Penasihat Berjangka. Nasihat Berbasis Teknologi Informasi berupa Expert Advisor adalah alat bantu berbasis Teknologi Informasi yang di dalamnya tersusun berdasarkan algoritma yang ditanamkan pada baris-baris programnya yang ditentukan berdasarkan karakteristik, tipe, kebutuhan, dan harapan Klien. -- Pasal 34 ayat (1) Undang-Undang Nomor 10 tahun 2011 tentang Perubahan Undang-Undang Nomor 32 Tahun 1997 tentang Perdagangan Berjangka Komoditi, 'Kegiatan usaha sebagai Penasihat Berjangka hanya dapat dilakukan oleh Pihak yang telah memperoleh izin usaha Penasihat Berjangka dari Bappebti.' -- Pasal 71 ayat (1) Undang-Undang Nomor 10 Tahun 2011 tentang Perubahan Undang-Undang Nomor 32 Tahun 1997 tentang Perdagangan Berjangka Komoditi. 'Setiap Pihak yang melakukan kegiatan Perdagangan Berjangka tanpa memiliki izin usaha sebagaimana dimaksud dalam Pasal 14 ayat (1), Pasal 25 ayat (2), Pasal 31 ayat (1), Pasal 34 ayat (1), atau Pasal 39 ayat (1), dipidana dengan pidana penjara paling singkat 5 (lima) tahun dan paling lama 10 (sepuluh) tahun, dan denda paling sedikit Rp10.000.000.000,00 (sepuluh miliar rupiah) dan paling banyak Rp20.000.000.000,00 (dua puluh miliar rupiah).'",
+            "title2": "Pemberitahuan Resiko",
+            "content2": "Perdagangan derivatif memiliki potensi keuntungan yang sangat tinggi, namun juga disertai risiko signifikan sehingga tidak cocok untuk semua investor; PT Arisma Teknika Mesari bukan merupakan lembaga keuangan dan hanya menerima pembayaran untuk jasa nasihat; layanan nasihat dari Penasihat Berjangka atau Wakil Penasihat Berjangka serta konten yang terkandung pada portal/website ottogain.com bersifat informasi dan rekomendasi, keputusan akhir sepenuhnya berada di tangan klien; kami tidak dapat dituntut atas kerugian yang timbul dari penggunaan informasi maupun rekomendasi yang diberikan; oleh karena itu pelajari, pahami, dan lakukan transaksi kontrak derivatif sesuai dengan profil risiko yang siap Anda tanggung."
+        },
+        "address": "Soho Podomorocity lt.16 Central Park Area Jl. S Parman-Jakarta barat Indonesia",
+        "email": "support@ottogain.com",
+        "phone": "+62811-3118-6888",
+        "phone2": "+6221-5035-1688",
+        "linksTitle": "Menu",
+        "copyright": "Copyright & design by ©OttoGain  2025, All rights reserved",
+        "copyrightMobile": "Copyright & design by ©OttoGain  2025, All rights reserved",
+        "contactUs": "Kontak Kami"
+    },
+    "aboutUsHero": {
+        "h1": "Tentang Kami",
+        "p": "OTTOGAIN adalah aplikasi berbasis cloud yang menyediakan layanan multi koneksi antara user, provider dan broker dengan jaringan yang aman."
+    },
+    "aboutUsTimeline": {
+        "h2": "Sejarah OTTOGAIN by ArTrade Smart Solution"
+    },
+    "serviceHero": {
+        "h1": "Layanan Kami"
+    },
+    "serviceContent": {
+        "item1": {
+            "h2": "Signal Provider",
+            "p": "Trading menjadi lebih efisien dengan signal provider yang sudah melewati uji kelayakan minimal 5 tahun di website/aplikasi, mencakup:",
+            "ul": {
+                "1": "Kesesuaian algoritma",
+                "2": "Strategi trading yang teruji",
+                "3": "Kinerja signal provider",
+                "4": "Komitmen pengembang untuk pembaruan minimal 5 tahun dengan update berkala setiap 3 bulan",
+                "5": "Layanan purna jual"
+            }
+        },
+        "item2": {
+            "h2": "Edukasi Trading",
+            "p": "Program edukasi trading terstruktur yang dirancang agar Anda langsung praktek, bukan hanya teori. Fokus pada pembentukan SOP trading pribadi, mindset, dan risk management yang sehat.",
+            "ul1": {
+                "header": "Cocok untuk:",
+                "1": "Yang baru mulai belajar trading",
+                "2": "Yang sudah memulai tapi belum konsisten",
+                "3": "Yang ingin mendapatkan pendampingan dan nasihat yang lebih detail"
+            },
+            "ul2": {
+                "header": "Yang Anda Dapatkan:",
+                "1": "Modul belajar bertahap (online/offline)",
+                "2": "Sesi live class & tanya jawab",
+                "3": "Template trading plan &  trading journal",
+                "4": "Akses ke komunitas trading"
+            }
+        },
+        "item3": {
+            "p": "Modul yang dipelajari:",
+            "ul": {
+                "1": "Mindset & Psikologi Trading",
+                "2": "Money Management",
+                "3": "Trading Plan dengan Simple Indicator & Cluster",
+                "4": "Analisa Fundamental",
+                "5": "Analisa Teknikal"
+            }
+        }
+    },
+    "serviceProofs": {
+        "h2": "Kami Memberikan Bukti bukan Janji"
+    },
+    "serviceCta": {
+        "h2": {
+            "1": "Bangun Fondasi Trading Bersama",
+            "2": "Signal Provider Yang Kredibel"
+        },
+        "btn": "Booking Jadwal"
+    },
+    "partnershipHero": {
+        "h1": "Bersama Membangun Kesuksesan di Dunia Trading",
+        "p": "Di Ottogain, kami percaya bahwa kolaborasi adalah kunci kesuksesan. Kami membuka pintu kemitraan bagi para edukator trading, komunitas forex/komoditi, dan profesional finansial yang ingin memberikan nilai lebih kepada anggota atau klien."
+    },
+    "partnershipContent": {
+        "h1": "Mengapa bermitra dengan Ottogain?",
+        "item1": {
+            "h2": "Untuk Edukator & Komunitas:",
+            "ul": {
+                "1": {
+                    "bold": "Tambahkan Nilai:",
+                    "li": "Lengkapi materi edukasi Anda dengan akses ke sinyal trading real-time dari analis profesional kami"
+                },
+                "2": {
+                    "bold": "Pasive Income:",
+                    "li": "Dapatkan komisi berulang setiap kali member Anda bergabung dengan layanan kami"
+                },
+                "3": {
+                    "bold": "Kredibilitas:",
+                    "li": "Tingkatkan kepercayaan anggota dengan menyediakan tools trading yang teruji performanya"
+                },
+                "4": {
+                    "bold": "Support Lengkap:",
+                    "li": "Kami siap membantu dengan materi presentasi, webinar bersama, dan dukungan teknis"
+                }
+            }
+        },
+        "item2": {
+            "h2": "Untuk Trader Profesional:",
+            "ul": {
+                "1": {
+                    "bold": "Monetisasi Skill:",
+                    "li": "Ubah keahlian trading Anda menjadi sumber pendapatan yang konsisten"
+                },
+                "2": {
+                    "bold": "Fokus pada Trading:",
+                    "li": "Kami handle semua aspek marketing, billing, dan support klien"
+                },
+                "3": {
+                    "bold": "Ekosistem Support:",
+                    "li": "Akses ke tools analisis premium dan sesi konsultasi dengan tim analis kami"
+                }
+            }
+        }
+    },
+    "partnershipHow": {
+        "h1": "Bagaimana Kerjasama Ini Bekerja?",
+        "card1": {
+            "h3": "Affiliate Simple",
+            "p": "Anda referensikan, kami yang akan menjelaskan secara detail"
+        },
+        "card2": {
+            "h3": "Revenue Sharing",
+            "p": "Komisi kompetitif yang dibayarkan secara transparan"
+        },
+        "card3": {
+            "h3": "Tanpa Biaya Awal",
+            "p": "Bergabung sepenuhnya GRATIS tanpa biaya pendaftaran"
+        }
+    },
+    "partnershipSteps": {
+        "item1": {
+            "h3": "3 Langkah Mudah Menjadi Partner Ottogain",
+            "li1": {
+                "h4": "Daftar & Konsultasi",
+                "p": "Isi formulir pendaftaran singkat → Tim partnership kami akan menghubungi Anda dalam 24 jam untuk memahami kebutuhan spesifik Anda → Diskusikan model kerjasama yang paling sesuai"
+            },
+            "li2": {
+                "h4": "Integrasi & Setup",
+                "p": "Dapatkan akses ke dashboard partner khusus → Pilih materi promosi yang sesuai (banner, landing page, presentasi) → Tentukan bagaimana Anda ingin menyajikan layanan kami ke audience Anda"
+            },
+            "li3": {
+                "h4": "Launch & Growth",
+                "p": "Luncurkan layanan ke komunitas/klien Anda → Pantau performa melalui dashboard real-time → Optimalkan strategi berdasarkan data bersama tim kami"
+            }
+        },
+        "item2": {
+            "h3": "Model Kemitraan yang Fleksibel",
+            "li1": {
+                "h4": "Partnership Edukasi",
+                "p": "Ideal untuk edukator yang ingin melengkapi kursus trading dengan tools praktis"
+            },
+            "li2": {
+                "h4": "Komunitas & Group Trading",
+                "p": "Khusus admin komunitas yang ingin memberikan benefit eksklusif kepada anggota"
+            },
+            "li3": {
+                "h4": "Whitelabel Solution",
+                "p": "Untuk partner yang ingin menawarkan layanan dengan branding mereka sendiri"
+            },
+            "li4": {
+                "h4": "Referral Professional",
+                "p": "Sempurna bagi individu yang ingin mendapatkan income tambahan dari jaringan profesionalnya"
+            }
+        }
+    },
+    "partnershipCta": {
+        "h2": "Siap Mengembangkan Bisnis dan Komunitas Anda Bersama Kami?",
+        "p1": "Bergabunglah dengan jaringan partner Ottogain yang sudah tersebar di lebih dari 13 provinsi di seluruh Indonesia",
+        "p2": "Hubungi tim partnership kami langsung:"
+    },
+    "contactUsHero": {
+        "h1": "Konsultasikan Kebutuhan Anda",
+        "p": "Isi formulir di bawah ini dan diskusikan bersama tim profesional kami bagaimana OTTOGAIN bisa membantu Anda."
+    },
+    "contactUsForm": {
+        "h2": "Kontak Kami"
+    },
+    "contactHero": {
+        "title": "Kontak Kami — PT Lintas Mahesa Raya",
+        "h1": "Kontak Kami",
+        "p": "Temukan cara terbaik untuk memenuhi kebutuhan Anda dengan menghubungi tim profresional kami."
+    },
+    "contactForm": {
+        "h2": "Formulir Kontak",
+        "name": "Nama",
+        "email": "Email",
+        "whatsapp": "Nomor WhatsApp",
+        "purpose": "Pilih Kebutuhan",
+        "registration": "Registrasi",
+        "others": "Lainnya",
+        "send": "Kirim",
+        "message": "Pesan",
+        "btn": "Kirim Pesan",
+        "tower": "Mayapada Tower 2",
+        "address": "Lantai 7 Unit 03, Jend. Sudirman Street Kav. 27, Karet, Setiabudi, South Jakarta, DKI Jakarta 12920, Indonesia",
+        "location": "Lokasi Kami"
+    }
+}

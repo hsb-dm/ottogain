@@ -1,0 +1,110 @@
+{
+    "404": "Page Not Found",
+    "nav": {
+        "home": "Home",
+        "service": "Services",
+        "aboutUs": "About Us",
+        "partnership": "Partnership",
+        "contactUs": "Contact Us"
+    },
+    "hero": {
+        "h1": "SIGNAL PROVIDER FOR EVERYONE"
+    },
+    "cta": {
+        "h2": "Your Trusted Partner for Brokers and Exchanges in Indonesia",
+        "p": "We provide institutional-grade liquidity and advanced technology to help you succeed in today's fast-moving markets.",
+        "btn": "Contact Us"
+    },
+    "whyUs": {
+        "h2": "Why Choose Us?",
+        "cardCta": "Learn More",
+        "card1": {
+            "h3": "Reliable Liquidity",
+            "p": "Direct access to global liquidity providers"
+        },
+        "card2": {
+            "h3": "Innovative Technology",
+            "p": "Flexible, cutting-edge technology solutions tailored for your needs."
+        },
+        "card3": {
+            "h3": "Local Support",
+            "p": "Experienced Indonesian support team who truly understands your business."
+        }
+    },
+    "footer": {
+        "address": "Mayapada Tower 2 Lantai 7 Unit 03, Jl. Jenderal Sudirman No.27, RT.4/RW.2, Kuningan, Karet, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12920",
+        "email": "support@lmr.co.id",
+        "phone": "+6221-2500731",
+        "linksTitle": "Quick Links",
+        "riskTitle": "Risk Disclaimer",
+        "riskDesc": "Futures trading is a complex financial product. The use of leverage in trading activities may result in significant capital losses and may require you to increase your margin. Please ensure that you fully understand the principles of futures trading before deciding to enter the market.",
+        "riskDesc2": "Past prices and the performance of derivative products do not guarantee future results. These financial products are not suitable for all investors. Make sure you are fully aware of all potential risks involved and consider consulting an independent financial advisor before making any transactions.",
+        "copyright": "Copyright © 2025 Lintas Mahesa Raya, PT. All rights reserved.",
+        "copyrightMobile": "© 2025 Lintas Mahesa Raya, PT. All rights reserved."
+    },
+    "serviceHero": {
+        "title": "Services — PT Lintas Mahesa Raya",
+        "h1": "Services",
+        "p": "We offer a comprehensive range of services for brokers, exchanges, and financial institutions in Indonesia. From institutional liquidity to next-generation trading platforms, we are your go-to partner for thriving in competitive markets."
+    },
+    "serviceWhy": {
+        "h2": "Our Key Offerings",
+        "card1": {
+            "h3": "Institutional Liquidity Solutions",
+            "p": "Access deep, stable global liquidity. Enhance your trade execution with greater efficiency and risk control."
+        },
+        "card2": {
+            "h3": "Market Technology Infrastructure",
+            "p": "Build on a world-class technology foundation. Enjoy fast execution, high scalability, and real-time analytics to power your operations."
+        },
+        "card3": {
+            "h3": "Smart All-in-One CRM",
+            "p": "One dashboard. Everything connected. Manage clients, affiliates, and marketing campaigns seamlessly in one smart, scalable platform."
+        },
+        "card4": {
+            "h3": "MetaTrader 5 White Labeling & API",
+            "p": "Launch your own trading platform fast. Full branding flexibility with smooth, reliable API integration."
+        },
+        "card5": {
+            "h3": "Consulting & Support",
+            "p": "Local expertise that understands your needs. From integration to setup to strategy—we’re here 24/7 to keep your system running at its best."
+        }
+    },
+    "serviceCta": {
+        "p": "With a full suite of solutions, cutting-edge technology, and a dedicated team of experts, we are here to be your strategic growth partner in Indonesia’s evolving financial landscape.",
+        "btn": "Contact Our Team"
+    },
+    "aboutHero": {
+        "title": "About Us — PT Lintas Mahesa Raya",
+        "h1": "About Us"
+    },
+    "aboutProfile": {
+        "h2": "PT Lintas Mahesa Raya",
+        "p": "PT. Lintas Mahesa Raya is a leading provider of liquidity and technology solutions in Indonesia, focused on serving the needs of brokers and exchanges. Backed by deep expertise and a strong commitment to innovation, we help clients achieve greater efficiency and sustainable growth in dynamic financial markets.",
+        "p2": "With extensive experience and a strong commitment to innovation, we help clients achieve greater efficiency and sustainable growth in the ever-evolving financial markets.",
+        "card1": {
+            "h3": "Vision",
+            "p": "To become the strategic partner of choice in transforming Indonesia’s financial markets through innovative technology and reliable liquidity solutions, creating a more efficient, transparent, and sustainable financial ecosystem."
+        },
+        "card2": {
+            "h3": "Mission",
+            "p": "Empowering Indonesia’s financial industry through smart, secure, and adaptive liquidity and technology solutions, enabling brokers and exchanges to grow faster, operate more efficiently, and compete in the digital era."
+        }
+    },
+    "contactHero": {
+        "title": "Contact Us — PT Lintas Mahesa Raya",
+        "h1": "Contact Us",
+        "p": "Discover how we can support your business needs by connecting with our professional team."
+    },
+    "contactForm": {
+        "h2": "Contact Form",
+        "name": "Name",
+        "email": "Email",
+        "company": "Company's Name",
+        "message": "Message",
+        "btn": "Send Message",
+        "tower": "Mayapada Tower 2",
+        "address": "Lantai 7 Unit 03, Jend. Sudirman Street Kav. 27, Karet, Setiabudi, South Jakarta, DKI Jakarta 12920, Indonesia",
+        "location": "Our Location"
+    }
+}

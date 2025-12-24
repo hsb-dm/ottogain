@@ -1,0 +1,20 @@
+---
+import "../../assets/css/input.css";
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/services/hero";
+import Content from "../components/services/content";
+import Cta from "../components/services/cta";
+import Footer from "../components/footer";
+---
+
+<Layout title="OTTOGAIN">
+  <main>
+    <div class="relative min-h-[600px]">
+      <Hero client:only="react" />
+    </div>
+    
+    <Content client:only="react" />
+    <Cta client:only="react" />
+    <Footer client:only="react" />
+  </main>
+</Layout>
