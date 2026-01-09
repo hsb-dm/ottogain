@@ -7,7 +7,6 @@ import {
   IconButton,
   Tabs,
   TabsHeader,
-  Button,
 } from "@material-tailwind/react";
 
 import { useLocation } from "react-router-dom";
@@ -134,9 +133,12 @@ export default function ComplexNavbar() {
           <NavTabs />
         </div>
 
-        <Button className="bg-gradient-to-r from-[#C47EFC] to-[#0F17C3] lg:mx-2 px-2 lg:px-6 py-3 rounded-full font-semibold normal-case">
+        <a
+          href="https://memberarea.ottogain.com"
+          className="bg-gradient-to-r from-[#C47EFC] to-[#0F17C3] lg:mx-2 rounded-full text-white font-semibold normal-case whitespace-nowrap inline-flex items-center justify-center w-[177px] py-[17px] px-[26px]"
+        >
           {t("nav.loginRegis")}
-        </Button>
+        </a>
 
         {/* Language switcher */}
         <div className="hidden lg:flex ml-auto">
