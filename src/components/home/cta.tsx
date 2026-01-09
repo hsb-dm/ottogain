@@ -27,7 +27,10 @@ export default function Cta() {
         <p className="mt-7 text-gray-400 text-xl text-center">{t("cta.p")}</p>
 
         <div className="flex justify-center items-center w-full">
-          <Button className="bg-gradient-to-r from-[#C47EFC] to-[#0F17C3] mt-16 font-semibold normal-case">
+          <Button
+            onClick={() => (window.location.href = "/contact-us")}
+            className="bg-gradient-to-r from-[#C47EFC] to-[#0F17C3] mt-16 font-semibold normal-case"
+          >
             {t("cta.btn")}
           </Button>
         </div>

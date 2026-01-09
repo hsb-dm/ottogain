@@ -50,7 +50,14 @@ export function Hero() {
             />
           </div>
 
-          <Button className="bg-gradient-to-r from-[#C47EFC] to-[#0F17C3] mt-5 font-semibold normal-case">
+          <Button
+            onClick={() => {
+              document.getElementById("proof").scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
+            className="bg-gradient-to-r from-[#C47EFC] to-[#0F17C3] mt-5 font-semibold normal-case"
+          >
             {t("hero.ctaButton")}
           </Button>
 

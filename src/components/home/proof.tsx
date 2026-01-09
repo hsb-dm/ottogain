@@ -48,7 +48,7 @@ export function Proof() {
   }, [modalImg]);
 
   return (
-    <section className="bg-[#1B0A31] px-6 lg:px-[100px] py-12">
+    <section className="bg-[#1B0A31] px-6 lg:px-[100px] py-12" id="proof">
       <section className="relative lg:flex-row gap-[1.5rem] grid mx-auto mt-[3rem] lg:mt-[4.7rem] container">
         <Swiper
           modules={[Pagination, Navigation, Autoplay]}
