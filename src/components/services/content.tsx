@@ -73,7 +73,6 @@ export default function ServiceContent() {
                 <li>{t("serviceContent.item1.ul.2")}</li>
                 <li>{t("serviceContent.item1.ul.3")}</li>
                 <li>{t("serviceContent.item1.ul.4")}</li>
-                <li>{t("serviceContent.item1.ul.5")}</li>
               </ul>
             </div>
           </div>

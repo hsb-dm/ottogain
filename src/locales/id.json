@@ -86,7 +86,7 @@
     "footer": {
         "risk": {
             "title1": "Penasihat Berjangka",
-            "content1": "Penasihat Berjangka adalah Pihak yang memberikan nasihat kepada pihak lain mengenai jual beli Komoditi berdasarkan Kontrak Berjangka, Kontrak Derivatif Syariah dan/atau Kontrak Derivatif lainnya dengan menerima imbalan. Wakil Penasihat Berjangka adalah orang perseorangan yang berdasarkan kesepakatan dengan Penasihat Berjangka melaksanakan sebagian fungsi Penasihat Berjangka. Nasihat Berbasis Teknologi Informasi berupa Expert Advisor adalah alat bantu berbasis Teknologi Informasi yang di dalamnya tersusun berdasarkan algoritma yang ditanamkan pada baris-baris programnya yang ditentukan berdasarkan karakteristik, tipe, kebutuhan, dan harapan Klien. -- Pasal 34 ayat (1) Undang-Undang Nomor 10 tahun 2011 tentang Perubahan Undang-Undang Nomor 32 Tahun 1997 tentang Perdagangan Berjangka Komoditi, 'Kegiatan usaha sebagai Penasihat Berjangka hanya dapat dilakukan oleh Pihak yang telah memperoleh izin usaha Penasihat Berjangka dari Bappebti.' -- Pasal 71 ayat (1) Undang-Undang Nomor 10 Tahun 2011 tentang Perubahan Undang-Undang Nomor 32 Tahun 1997 tentang Perdagangan Berjangka Komoditi. 'Setiap Pihak yang melakukan kegiatan Perdagangan Berjangka tanpa memiliki izin usaha sebagaimana dimaksud dalam Pasal 14 ayat (1), Pasal 25 ayat (2), Pasal 31 ayat (1), Pasal 34 ayat (1), atau Pasal 39 ayat (1), dipidana dengan pidana penjara paling singkat 5 (lima) tahun dan paling lama 10 (sepuluh) tahun, dan denda paling sedikit Rp10.000.000.000,00 (sepuluh miliar rupiah) dan paling banyak Rp20.000.000.000,00 (dua puluh miliar rupiah).'",
+            "content1": "Penasihat Berjangka adalah Pihak yang memberikan nasihat kepada pihak lain mengenai jual beli Komoditi berdasarkan Kontrak Berjangka, Kontrak Derivatif Syariah dan/atau Kontrak Derivatif lainnya dengan menerima imbalan. Wakil Penasihat Berjangka adalah orang perseorangan yang berdasarkan kesepakatan dengan Penasihat Berjangka melaksanakan sebagian fungsi Penasihat Berjangka. Pasal 34 ayat (1) Undang-Undang Nomor 10 tahun 2011 tentang Perubahan Undang-Undang Nomor 32 Tahun 1997 tentang Perdagangan Berjangka Komoditi, 'Kegiatan usaha sebagai Penasihat Berjangka hanya dapat dilakukan oleh Pihak yang telah memperoleh izin usaha Penasihat Berjangka dari Bappebti.' -- Pasal 71 ayat (1) Undang-Undang Nomor 10 Tahun 2011 tentang Perubahan Undang-Undang Nomor 32 Tahun 1997 tentang Perdagangan Berjangka Komoditi. 'Setiap Pihak yang melakukan kegiatan Perdagangan Berjangka tanpa memiliki izin usaha sebagaimana dimaksud dalam Pasal 14 ayat (1), Pasal 25 ayat (2), Pasal 31 ayat (1), Pasal 34 ayat (1), atau Pasal 39 ayat (1), dipidana dengan pidana penjara paling singkat 5 (lima) tahun dan paling lama 10 (sepuluh) tahun, dan denda paling sedikit Rp10.000.000.000,00 (sepuluh miliar rupiah) dan paling banyak Rp20.000.000.000,00 (dua puluh miliar rupiah).'",
             "title2": "Pemberitahuan Resiko",
             "content2": "Perdagangan derivatif memiliki potensi keuntungan yang sangat tinggi, namun juga disertai risiko signifikan sehingga tidak cocok untuk semua investor; PT Arisma Teknika Mesari bukan merupakan lembaga keuangan dan hanya menerima pembayaran untuk jasa nasihat; layanan nasihat dari Penasihat Berjangka atau Wakil Penasihat Berjangka serta konten yang terkandung pada portal/website ottogain.com bersifat informasi dan rekomendasi, keputusan akhir sepenuhnya berada di tangan klien; kami tidak dapat dituntut atas kerugian yang timbul dari penggunaan informasi maupun rekomendasi yang diberikan; oleh karena itu pelajari, pahami, dan lakukan transaksi kontrak derivatif sesuai dengan profil risiko yang siap Anda tanggung."
         },
@@ -112,13 +112,12 @@
     "serviceContent": {
         "item1": {
             "h2": "Signal Provider",
-            "p": "Trading menjadi lebih efisien dengan signal provider yang sudah melewati uji kelayakan minimal 5 tahun di website/aplikasi, mencakup:",
+            "p": "Aktivitas transaksi didukung oleh penyedia analisa pasar dan rekomendasi perdagangan yang telah melalui proses evaluasi kinerja  dengan memperhatikan aspek kepatuhan dan transparansi, yang mencakup:",
             "ul": {
-                "1": "Kesesuaian algoritma",
-                "2": "Strategi trading yang teruji",
-                "3": "Kinerja signal provider",
-                "4": "Komitmen pengembang untuk pembaruan minimal 5 tahun dengan update berkala setiap 3 bulan",
-                "5": "Layanan purna jual"
+                "1": "Kesesuaian metodologi analisa dengan karakteristik instrumen dan kondisi pasar",
+                "2": "Pendekatan strategi perdagangan yang disusun berdasarkan kajian historis, statistik, dan prinsip manajemen risiko",
+                "3": "Rekam jejak kinerja penyedia analisa berdasarkan data yang dapat diverifikasi",
+                "4": "Layanan purna jual dan dukungan informasi untuk membantu pemahaman nasabah terhadap implementasi rekomendasi"
             }
         },
         "item2": {
