@@ -30,7 +30,7 @@
         },
         "card3": {
             "h3": "Fast",
-            "p": "Buka akun hanya 5 menit dengan langsung terkoneksi dengan signal provider, VPN, dan multi broker, serta multi payment channel."
+            "p": "Buka akun hanya 5 menit, pilih layanan signal dengan cepat dan langsung terkoneksi dengan signal provider, pilihan broker, serta multi payment channel."
         },
         "card4": {
             "h3": "Regulated",
@@ -101,7 +101,9 @@
     },
     "aboutUsHero": {
         "h1": "Tentang Kami",
-        "p": "OTTOGAIN adalah aplikasi berbasis cloud yang menyediakan layanan multi koneksi antara user, provider dan broker dengan jaringan yang aman."
+        "p1": "Layanan Ottogain Adalah program unggulan dari PT. Arisma Teknika Mesari yang telah resmi memperoleh izin usaha sebagai Perusahaan Penasihat Berjangka dari BAPPEBTI pada tahun 2025 dengan Nomor 02/BAPPEBTI/SI-PNB/07/2025 dan ijin Prinsip dari Bank Indonesia sehingga kami dapat memberikan Program Penasihat Perdagangan Berjangka serta Pendampingan Penasihat.",
+        "p2":"Layanan OTTOGAIN adalah aplikasi berbasis cloud yang menyediakan layanan multi koneksi antara user, provider dan broker dengan jaringan yang aman dan penggunaan yang mudah serta berdasarkan 3 prinsip dan pilar utama : Kepatuhan Regulasi, Transparansi Informasi, Kualitas Layanan Kepenasihatan. ",
+        "p3":"Sebagai Penasihat Berjangka yang terdaftar dan beroperasi sesuai dengan peraturan perundang-undangan di Indonesia, kami berkomitmen untuk memberikan edukasi serta rekomendasi strategis kepada nasabah dalam pengambilan keputusan di perdagangan berjangka. Kami tidak mengelola dana atau aset nasabah, melainkan menyediakan analisis berbasis data, strategi perencanaan, serta wawasan pasar yang mendukung klien dalam mengoptimalkan peluang di perdagangan berjangka. "
     },
     "aboutUsTimeline": {
         "h2": "Sejarah OTTOGAIN by ArTrade Smart Solution"

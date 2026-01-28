@@ -1,12 +1,12 @@
 import { useTranslation } from "react-i18next";
 
-import proof1Img from "../../assets/home/proof-1.webp";
-import proof2Img from "../../assets/home/proof-2.webp";
-import proof3Img from "../../assets/home/proof-3.webp";
+import proof1Img from "../../assets/home/proof-1.png";
+import proof2Img from "../../assets/home/proof-2.png";
+import proof3Img from "../../assets/home/proof-3.png";
 
-import proof1Popup from "../../assets/home/proof1-popup.webp";
-import proof2Popup from "../../assets/home/proof2-popup.webp";
-import proof3Popup from "../../assets/home/proof3-popup.webp";
+import proof1Popup from "../../assets/home/proof1-popup.png";
+import proof2Popup from "../../assets/home/proof2-popup.png";
+import proof3Popup from "../../assets/home/proof3-popup.png";
 
 import content1Img from "../../assets/services/content-1.webp";
 import content2Img from "../../assets/services/content-2.webp";

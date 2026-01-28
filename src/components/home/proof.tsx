@@ -1,13 +1,13 @@
-import proof1Img from "../../assets/home/proof-1.webp";
-import proof2Img from "../../assets/home/proof-2.webp";
-import proof3Img from "../../assets/home/proof-3.webp";
+import proof1Img from "../../assets/home/proof-1.png";
+import proof2Img from "../../assets/home/proof-2.png";
+import proof3Img from "../../assets/home/proof-3.png";
 
-import proof1Popup from "../../assets/home/proof1-popup.webp";
-import proof2Popup from "../../assets/home/proof2-popup.webp";
-import proof3Popup from "../../assets/home/proof3-popup.webp";
+import proof1Popup from "../../assets/home/proof1-popup.png";
+import proof2Popup from "../../assets/home/proof2-popup.png";
+import proof3Popup from "../../assets/home/proof3-popup.png";
 
 import monitorIcon from "../../assets/home/icon-monitor.svg";
-import robotIcon from "../../assets/home/icon-robot.svg";
+import signalIcon from "../../assets/home/icon-signal.svg";
 import userIcon from "../../assets/home/icon-user.svg";
 
 import { useTranslation } from "react-i18next";
@@ -99,15 +99,15 @@ export function Proof() {
             <div className="flex justify-start lg:justify-center items-center gap-6 w-full">
               <img src={userIcon.src} alt="icon user" />
               <div className="text-white">
-                <div className="font-semibold text-5xl">99+</div>
+                <div className="font-semibold text-5xl mb-[3px]">99+</div>
                 <div>{t("proof.userAmount")}</div>
               </div>
             </div>
 
             <div className="flex justify-start lg:justify-center items-center gap-6 w-full">
-              <img src={robotIcon.src} alt="icon robot" />
+              <img src={signalIcon.src} alt="icon signal" />
               <div className="text-white">
-                <div className="font-semibold text-5xl">21</div>
+                <div className="font-semibold text-5xl mb-[3px]">3</div>
                 <div>{t("proof.signalAmount")}</div>
               </div>
             </div>
@@ -115,7 +115,7 @@ export function Proof() {
             <div className="flex justify-start lg:justify-center items-center gap-6 w-full">
               <img src={monitorIcon.src} alt="icon monitor" />
               <div className="text-white">
-                <div className="font-semibold text-5xl">07</div>
+                <div className="font-semibold text-5xl mb-[3px]">07</div>
                 <div>{t("proof.connectedBroker")}</div>
               </div>
             </div>

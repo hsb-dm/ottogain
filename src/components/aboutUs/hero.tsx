@@ -29,7 +29,9 @@ export default function AboutUsHero() {
                 </h1>
               </div>
 
-              <p className="text-white">{t("aboutUsHero.p")}</p>
+              <p className="text-white">{t("aboutUsHero.p1")}</p>
+              <p className="text-white">{t("aboutUsHero.p2")}</p>
+              <p className="text-white">{t("aboutUsHero.p3")}</p>
             </div>
 
             <img src={hero.src} className="max-h-[650px]" />
